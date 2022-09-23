@@ -20,6 +20,9 @@ class LeftFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+//        if (activity !=null){
+//            val mainActivity = activity as MainActivity
+//        }
         return inflater.inflate(R.layout.left_fragment, container, false)
     }
 
